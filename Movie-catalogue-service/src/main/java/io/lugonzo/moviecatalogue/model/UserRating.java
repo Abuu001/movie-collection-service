@@ -1,4 +1,4 @@
-package io.lugonzo.moviedataservice.model;
+package io.lugonzo.moviecatalogue.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
