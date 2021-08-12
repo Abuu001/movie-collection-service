@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="discoveryserver" />
         <module name="demo (2)" />
         <module name="demo" />
         <module name="demo (1)" />
@@ -16,6 +17,7 @@
       <module name="demo" target="11" />
       <module name="demo (1)" target="11" />
       <module name="demo (2)" target="11" />
+      <module name="discoveryserver" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -23,6 +25,7 @@
       <module name="demo" options="-parameters" />
       <module name="demo (1)" options="-parameters" />
       <module name="demo (2)" options="-parameters" />
+      <module name="discoveryserver" options="-parameters" />
     </option>
   </component>
 </project>

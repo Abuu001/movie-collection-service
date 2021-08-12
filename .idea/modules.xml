@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/Movie-catalogue-service/demo.iml" filepath="$PROJECT_DIR$/Movie-catalogue-service/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Movie-data-service/demo (1).iml" filepath="$PROJECT_DIR$/Movie-data-service/demo (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/Movie-info-service/demo (2).iml" filepath="$PROJECT_DIR$/Movie-info-service/demo (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/Movie-discovery-server/discoveryserver.iml" filepath="$PROJECT_DIR$/Movie-discovery-server/discoveryserver.iml" />
     </modules>
   </component>
 </project>
