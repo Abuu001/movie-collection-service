@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.reactive.function.client.WebClient;
 
-import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -29,10 +28,10 @@ public class MovieCatalogueResource {
     @GetMapping("/{userId}")
     public List<CatalogueItem> getCatalogue(@PathVariable("userId") String userId){
 
-        UserRating Allrating = restTemplate.getForObject("http://localhost:3002/api/v1/ratingsdata/users/"+ userId, UserRating.class);
+        UserRating Allrating = restTemplate.getForObject("http://movie-ratings-data-service/api/v1/ratingsdata/users/"+ userId, UserRating.class);
 
         return Allrating.getUserrating().stream().map(rating -> {
-           Movie movie = restTemplate.getForObject("http://localhost:3003/api/v1/movies/"+ rating.getMovieId().toString(), Movie.class);
+           Movie movie = restTemplate.getForObject("http://movie-info-service/api/v1/movies/"+ rating.getMovieId().toString(), Movie.class);
 
             //Alternative to restTemplate 👇👇
            /* Movie movie = webClientBuilder.build()
