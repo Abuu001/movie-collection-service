@@ -13,4 +13,9 @@ public class Movie {
 
     private String movieId;
     private String name;
+    private String description;
+    private String language;
+    private Integer popularity;
+    private String status;
+    private String voteCount;
 }

@@ -12,8 +12,8 @@ import lombok.NoArgsConstructor;
 public class MovieSummary {
     private String title;
     private String overview;
- /*   private String language;
+    private String language;
     private Integer popularity;
     private String status;
-    private String voteCount;*/
+    private String voteCount;
 }
