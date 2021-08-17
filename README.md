@@ -11,3 +11,6 @@ The movie app has 3 services.
 -- shows the ranging of the movies listed
    
 2) Movie info service -- lists the information about each movie
+
+# To run this app
+1. First start the movie discovery service
