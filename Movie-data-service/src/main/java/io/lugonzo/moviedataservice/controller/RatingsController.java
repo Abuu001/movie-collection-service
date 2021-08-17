@@ -27,7 +27,7 @@ public class RatingsController {
     public UserRating getAllRatings(@PathVariable("usersId") String usersId){
         var movie1 = Rating.builder()
                 .movieId("1234")
-                .rating(6)
+                .rating(3)
                 .build();
 
         var movie2 = Rating.builder()
@@ -35,8 +35,28 @@ public class RatingsController {
                 .rating(7)
                 .build();
 
+        var movie3 = Rating.builder()
+                .movieId("8822")
+                .rating(4)
+                .build();
+
+        var movie4 = Rating.builder()
+                .movieId("2211")
+                .rating(10)
+                .build();
+
+        var movie5 = Rating.builder()
+                .movieId("8391")
+                .rating(5)
+                .build();
+
+        var movie6 = Rating.builder()
+                .movieId("3218")
+                .rating(7)
+                .build();
+
         var userRating = UserRating.builder()
-                .userrating(Arrays.asList(movie1,movie2))
+                .userrating(Arrays.asList(movie1,movie2,movie3,movie4,movie5,movie6))
                 .build();
 
         return userRating;
