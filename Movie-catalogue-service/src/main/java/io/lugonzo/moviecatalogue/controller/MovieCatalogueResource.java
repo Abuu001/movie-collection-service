@@ -1,9 +1,6 @@
 package io.lugonzo.moviecatalogue.controller;
 
-import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import io.lugonzo.moviecatalogue.model.CatalogueItem;
-import io.lugonzo.moviecatalogue.model.Movie;
-import io.lugonzo.moviecatalogue.model.Rating;
 import io.lugonzo.moviecatalogue.model.UserRating;
 import io.lugonzo.moviecatalogue.service.MovieInfoService;
 import io.lugonzo.moviecatalogue.service.UserRatingInfoService;

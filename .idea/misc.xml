@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/Movie-data-service/pom.xml" />
         <option value="$PROJECT_DIR$/Movie-info-service/pom.xml" />
         <option value="$PROJECT_DIR$/Movie-discovery-server/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-config-server/pom.xml" />
       </list>
     </option>
   </component>
