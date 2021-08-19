@@ -1,0 +1,19 @@
+
+server:
+      port: 3006
+
+app:
+   name: My app
+   description: Welcome to ${app.name}
+
+my:
+  greeting: Hello
+  list:
+      values: one,two,three
+
+db:
+  host: 127.0.0
+  port: 3009
+  connection: https://testDb/123
+
+management.endpoints.web.exposure.include: *
