@@ -14,7 +14,7 @@ my:
 db:
   host: 127.0.0
   port: 3009
-  password: {cipher}aezakmi
+  password: '{cipher}aezakmi'
   connection: https://testDb/123
 
 management.endpoints.web.exposure.include: "*"
