@@ -1,0 +1,9 @@
+my:
+  greeting: Hello from config server
+  list:
+    values: one,two,three
+
+db:
+  host: 127.0.0
+  port: 3009
+  connection: https://testDb/123/configserver
